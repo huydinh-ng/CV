@@ -1,0 +1,56 @@
+@media only screen and (max-width: 500px) {
+  /*Xây dựng Navbar*/
+  .nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+  .btn {
+    text-align: left;
+    border-left: none;
+    border-right: none;
+  }
+  /* Xây dựng Thông tin cá nhân */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Xây dựng phần "Chứng chỉ - Giải thưởng" */
+  .certificate-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .certificate-grid > div {
+    flex-direction: column;
+  }
+  .cc-img {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .cc-WEB {
+    border-right: none;
+  }
+  .cc-PRF {
+    border-top: 1px solid #eccece;
+  }
+  .cc-DIB {
+    border-top: 1px solid #eccece;
+  }
+  hr {
+    display: none;
+  }
+  /* Xây dựng phần "Dự án" */
+  .project-grid {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  .project-title {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}

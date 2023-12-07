@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/laptop.css" />
+		<link rel="stylesheet" href="css/mobile.css" />
+		<link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/font.css" />
+	  <title>Assignment 03</title>
+  </head>
+  <body>
+		<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+<!-- Xây dựng phần Banner -->
+		<section id="banner" class="banner-text">
+      <h1>Nguyễn Huy Định</h1>
+      <span>Full Stack Developer</span></div>
+    </section>
+<!-- Xây dựng Navbar -->
+    <section id="nav-bar">
+      <nav class="nav">
+        <button onclick="about.scrollIntoView()" class="btn icon-user">Thông tin</button>
+        <button onclick="job.scrollIntoView()" class="btn icon-doc-text-inv">Lý lịch</button>
+				<img src="images/default-avatar.png" alt="avatar" class="avatar d-none d-md-flex">
+				<div class="d-none d-md-none d-sm-flex mx-3"></div>
+        <button onclick="certificate.scrollIntoView()" class="btn icon-mail-alt">Chứng chỉ</button>
+        <button onclick="project.scrollIntoView()" class="btn icon-star-1">Dự Án</button>
+      </nav>
+    </section>
+<!--Xây dựng Thông tin cá nhân-->
+    <section id="about" class="bg-grey">
+      <div class="container  mw-100">
+        <div id="target">
+          <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+          <p>
+						- Là một người vui vẻ hoà đồng với mọi người, cầu tiến, có khả năng tập trung cao trong công việc và hoàn thành tốt nhiệm vụ được giao.
+          </p>
+          <p>
+						- Hiện tại, mong muốn mình sẽ được làm việc với vị trí Fullstack Developer, có thể vận dụng những kiến thức đã được trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt nhất công việc được giao.
+					 </p>
+          <p>
+						- Mục tiêu tương lai: Nâng cao khả năng lập trình và kỹ năng quản lý dự án.
+						Cụ thể là nâng cao khả năng lập trình các ngôn ngữ thiên về backend và hướng tới học tập, trau dồi thêm kiến thức về clouds và trở thành leader/PM.					
+          </p>
+        </div>
+        <div id="personal-info">
+          <h2 class="section-title">Thông tin cá nhân</h2>
+            <p><b>Giới tính</b> : Nam</p>
+            <p><b>Ngày sinh</b> : 30/01/1991</p>
+            <p><b>Điện thoại</b> : <a href="tel:+84352517750" style="color: #7d7d7d">(+84) 79.723.8906
+						</a></p>
+            <p><b>Email</b> : <a href="mailto:huydinhnoo@gmail.com" style="color: #7d7d7d">huydinhnoo@gmail.com</a></p>
+            <p><b>Địa chỉ</b> : Mễ Trì Hạ - Nam Từ Liêm - Hà Nội</p>
+					<table class="icon1">
+						<thead>
+							<tr>
+                <td><span class="icon-twitter"></span></td>
+                <td><span class="icon-facebook"></span></td>
+                <td><span class="icon-gplus"></span></td>
+                <td><span class="icon-linkedin"></span></td>
+            </tr>
+					</table>
+        </div>
+      </div>
+    </section>
+<!-- Xây dựng phần "Thông tin nghề nghiệp, sở thích, ngôn ngữ, kỹ năng" -->
+    <section id="job" class="jog">
+     	<table class="d-none d-md-flex justify-content-center w-80">
+<!-- Xây dựng phần "Thông tin nghề nghiệp" -->
+ 		   <tr class="">
+  		  <td class="w-25">
+					<div class="infomation">
+						<div class="infomation-title"> <h2 class="section-title">Kinh nghiệm</h2></div>
+						<div class="icon3"><span class="ic-toolbox"></span></div>
+					</div>
+					<ul class="style-list">
+						<li>
+							<b>Full Stack Developer - FUNix</b><br>
+							<p><i>03/2023 - <span class="now">Hiện tại</span> </i></p>
+														<p>
+								- Học và thực hành lập trình Fullstack
+							</p>
+							<p>
+								- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.
+							</p>
+							<p>
+								- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL
+						(MySQL, NoSQL, ...) và viết được các câu truy vấn.
+							</p>
+							<p>
+								- Sử dụng ngôn ngữ serve-side (JavaScript ...) để xây dựng các
+						Web Service
+							</p>
+						</li>
+						<li>
+							<b>Thiết kế tự động hóa - SEVT</b><br>
+							<i>12/2019 - 03/2023</i>
+							<p>
+								- Thiết kế và cải tiến chương trình, hệ thống tự động hóa
+							</p>
+													</li>
+						<li>
+							<b>Kỹ sư AOI - WNC Việt Nam</b><br>
+							<i>2018 - 12/2019</i>
+							<p>
+								- Viết chương trình kiểm tra lỗi của mạch điện tử
+							</p>
+													</li>
+					</ul>
+				</td>
+    		<td class="w-25">
+					<div class="infomation">
+					<div class="infomation-title"> <h2 class="section-title">Học vấn</h2></div>
+					<div class="icon3"><span class="ic-pencil"></span></div>
+					</div>
+					<ul class="style-list">
+						<li>
+							<b>FUNiX</b><br>
+							<i>03/2023 - 11/2023</i>
+							<p>- Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
+           	 <p>- GPA: 8 / 10</p>
+						</li>
+						<li>
+							<b>ĐH Bách Khoa Hà Nội</b><br>
+							<i>2013 - 2018</i>
+           	 <p>- Tốt nghiệp Chuyên ngành: Kỹ thuật Cơ điện tử.</p>
+          	  						</li>
+						<li>
+							<b>ĐH Bách Khoa Hà Nội</b><br>
+							<i>2009 - 2013</i>
+           	 <p>- Chuyên ngành: Kỹ thuật Hóa Học.</p>
+          	  						</li>
+					</ul>
+				</td>
+				<td class="w-25">
+					<div class="infomation">
+						<div class="infomation-title"> <h2 class="section-title">Hoạt động</h2></div>
+						<div class="icon3"><span class="ic-toolbox"></span></div>
+					</div>
+					<ul class="style-list">
+											<li>
+							<b>Đại học Bách Khoa Hà Nội</b><br>
+							<i>2009 - 2018</i>
+							<p>- Phụ trách hoạt động tình nguyện Trường</p>
+							<p>- Tổ chức các hoạt động, quản lý các đội tình nguyện trường (~1500 TNV) </p>
+						</li>
+					</ul>
+				</td>
+  		 </tr>
+ 			 <tr>
+<!-- Xây dựng phần "Sở thích" -->
+   			<td class="st w-25">
+				 <div class="infomation">
+					<div class="infomation-title"> <h2 class="section-title">Sở thích</h2></div>
+					<div class="icon3"><span class="ic-telescope"></span></div>
+				 </div>
+				 <table class="st">
+					<tr>
+						<td><span class="icon ic-megaphone"></span><p>Âm nhạc</p></td>
+						<td><span class="icon ic-strategy"></span><p>Chơi game</p></td>
+						<td><span class="icon ic-hotairballoon"></span><p>Du lịch</p></td>
+						<td><span class="icon	ic-basket"></span><p>Nấu ăn</p></td>
+					</tr>
+				 </table>
+				</td>
+<!-- Xây dựng phần "Ngôn Ngữ" -->
+    		<td class="w-25">
+				 <div class="infomation">
+					<div class="infomation-title"> <h2 class="section-title">Ngôn ngữ</h2></div>
+			  	<div class="icon3"><span class="ic-mic"></span></div>
+				 </div>
+				 <p>Tiếng Anh</p>
+				 				 <span class="xanh"></span><span class="xam"></span><span class="xam"></span>
+				</td>
+<!-- Xây dựng phần "Kỹ Năng" -->
+				<td class="w-25"> 
+				 <div class="infomation">
+					<div class="infomation-title"> <h2 class="section-title">Kỹ năng</h2></div>
+		  		<div class="icon3"><span class="ic-tools-2"></span></div>
+	  		 </div>
+				 <p>HTML/CSS: Intermediate</p>
+			 	 <span class="xanh"></span><span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span>
+				 <p>Javascript: Fundamental</p>
+			   <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+				 <p>ReactJS: Fundamental</p>
+				 <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+				 <p>NodeJS: Fundamental</p>
+				 <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+			 	 		  	</td>
+  		 </tr>
+  		</table>
+			<table class="d-none d-md-none d-sm-flex justify-content-center w-80">
+				<!-- Xây dựng phần "Thông tin nghề nghiệp" -->
+								<tr>
+								<td  class="w-25-1">
+									<div class="infomation">
+										<div class="infomation-title"> <h2 class="section-title">Kinh nghiệm</h2></div>
+										<div class="icon3"><span class="ic-toolbox"></span></div>
+									</div>
+									<ul class="style-list">
+										<li>
+											<b>Full Stack Developer - FUNix</b><br>
+											<p><i>03/2023 - <span class="now">Hiện tại</span> </i></p>
+																		<p>
+												- Học và thực hành lập trình Fullstack
+											</p>
+											<p>
+												- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.
+											</p>
+											<p>
+												- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL
+										(MySQL, NoSQL, ...) và viết được các câu truy vấn.
+											</p>
+											<p>
+												- Sử dụng ngôn ngữ serve-side (JavaScript ...) để xây dựng các
+										Web Service
+											</p>
+										</li>
+										<li>
+											<b>Thiết kế tự động hóa - SEVT</b><br>
+											<i>12/2019 - 03/2023</i>
+											<p>
+												- Thiết kế và cải tiến chương trình, hệ thống tự động hóa
+											</p>
+																	</li>
+										<li>
+											<b>Kỹ sư AOI - WNC Việt Nam</b><br>
+											<i>2018 - 12/2019</i>
+											<p>
+												- Viết chương trình kiểm tra lỗi của mạch điện tử
+											</p>
+																	</li>
+									</ul>
+									
+								</td>
+								<td class="w-25-1">
+									<div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Học vấn</h2></div>
+									<div class="icon3"><span class="ic-pencil"></span></div>
+									</div>
+									<ul class="style-list">
+										<li>
+											<b>FUNiX</b><br>
+											<i>03/2023 - 11/2023</i>
+											<p>- Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
+											<p>- GPA: 8 / 10</p>
+										</li>
+										<li>
+											<b>ĐH Bách Khoa Hà Nội</b><br>
+											<i>2013 - 2018</i>
+											<p>- Tốt nghiệp Chuyên ngành: Kỹ thuật Cơ điện tử.</p>
+																	</li>
+										<li>
+											<b>ĐH Bách Khoa Hà Nội</b><br>
+											<i>2009 - 2013</i>
+											<p>- Chuyên ngành: Kỹ thuật Hóa Học.</p>
+																	</li>
+									</ul>
+								</td></tr>
+								<tr><td class="w-25-1">
+									<div class="infomation">
+										<div class="infomation-title"> <h2 class="section-title">Hoạt động</h2></div>
+										<div class="icon3"><span class="ic-toolbox"></span></div>
+									</div>
+									<ul class="style-list">
+																				<li>
+											<b>Đại học Bách Khoa Hà Nội</b><br>
+											<i>2009 - 2018</i>
+											<p>- Phụ trách hoạt động tình nguyện Trường</p>
+											<p>- Tổ chức các hoạt động, quản lý các đội tình nguyện trường (~1500 TNV) </p>
+										</li>
+									</ul>
+								</td>
+							 				<!-- Xây dựng phần "Sở thích" -->
+								 <td class="st w-25-1" >
+								 <div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Sở thích</h2></div>
+									<div class="icon3"><span class="ic-telescope"></span></div>
+								 </div>
+								 <table class="st">
+									<tr>
+										<td><span class="icon ic-megaphone"></span><p>Âm nhạc</p></td>
+										<td><span class="icon ic-strategy"></span><p>Chơi game</p></td>
+										<td><span class="icon ic-hotairballoon"></span><p>Du lịch</p></td>
+										<td><span class="icon	ic-basket"></span><p>Nấu ăn</p></td>
+									</tr>
+								 </table>
+								</td></tr>
+							
+				<!-- Xây dựng phần "Ngôn Ngữ" -->
+				<tr><td class="w-25-1">
+								 <div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Ngôn ngữ</h2></div>
+									<div class="icon3"><span class="ic-mic"></span></div>
+								 </div>
+								 <p>Tiếng Anh</p>
+				 				 <span class="xanh"></span><span class="xam"></span><span class="xam"></span>
+								</td>
+				<!-- Xây dựng phần "Kỹ Năng" -->
+								<td class="w-25-1"> 
+								 <div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Kỹ năng</h2></div>
+									<div class="icon3"><span class="ic-tools-2"></span></div>
+								 </div>
+								 <p>HTML/CSS: Intermediate</p>
+			 	 <span class="xanh"></span><span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span>
+				 <p>Javascript: Fundamental</p>
+			   <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+				 <p>ReactJS: Fundamental</p>
+				 <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+				 <p>NodeJS: Fundamental</p>
+				 <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+								</td>
+							 </tr>
+			</table>
+			<table class="d-sm-none w-80">
+				<!-- Xây dựng phần "Thông tin nghề nghiệp" -->
+								<tr>
+								<td>
+									<div class="infomation">
+										<div class="infomation-title"> <h2 class="section-title">Kinh nghiệm</h2></div>
+										<div class="icon3"><span class="ic-toolbox"></span></div>
+									</div>
+									<ul class="style-list">
+										<li>
+											<b>Full Stack Developer - FUNix</b><br>
+											<p><i>03/2023 - <span class="now">Hiện tại</span> </i></p>
+																		<p>
+												- Học và thực hành lập trình Fullstack
+											</p>
+											<p>
+												- Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.
+											</p>
+											<p>
+												- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL
+										(MySQL, NoSQL, ...) và viết được các câu truy vấn.
+											</p>
+											<p>
+												- Sử dụng ngôn ngữ serve-side (JavaScript ...) để xây dựng các
+										Web Service
+											</p>
+										</li>
+										<li>
+											<b>Thiết kế tự động hóa - SEVT</b><br>
+											<i>12/2019 - 03/2023</i>
+											<p>
+												- Thiết kế và cải tiến chương trình, hệ thống tự động hóa
+											</p>
+																	</li>
+										<li>
+											<b>Kỹ sư AOI - WNC Việt Nam</b><br>
+											<i>2018 - 12/2019</i>
+											<p>
+												- Viết chương trình kiểm tra lỗi của mạch điện tử
+											</p>
+																	</li>
+									</ul>
+								</td></tr>
+								<tr>
+								<td>
+									<div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Học vấn</h2></div>
+									<div class="icon3"><span class="ic-pencil"></span></div>
+									</div>
+									<ul class="style-list">
+										<li>
+											<b>FUNiX</b><br>
+											<i>03/2023 - 11/2023</i>
+											<p>- Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
+											<p>- GPA: 8 / 10</p>
+										</li>
+										<li>
+											<b>ĐH Bách Khoa Hà Nội</b><br>
+											<i>2013 - 2018</i>
+											<p>- Tốt nghiệp Chuyên ngành: Kỹ thuật Cơ điện tử.</p>
+																	</li>
+										<li>
+											<b>ĐH Bách Khoa Hà Nội</b><br>
+											<i>2009 - 2013</i>
+											<p>- Chuyên ngành: Kỹ thuật Hóa Học.</p>
+																	</li>
+									</ul>
+								</td></tr>
+								<tr>
+								<td>
+									<div class="infomation">
+										<div class="infomation-title"> <h2 class="section-title">Hoạt động</h2></div>
+										<div class="icon3"><span class="ic-toolbox"></span></div>
+									</div>
+									<ul class="style-list">
+																				<li>
+											<b>Đại học Bách Khoa Hà Nội</b><br>
+											<i>2009 - 2018</i>
+											<p>- Phụ trách hoạt động tình nguyện Trường</p>
+											<p>- Tổ chức các hoạt động, quản lý các đội tình nguyện trường (~1500 TNV) </p>
+										</li>
+									</ul>
+								</td>
+							 </tr>
+								<tr>
+				<!-- Xây dựng phần "Sở thích" -->
+								 <td class="st">
+								 <div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Sở thích</h2></div>
+									<div class="icon3"><span class="ic-telescope"></span></div>
+								 </div>
+								 <table class="st">
+									<tr>
+										<td><span class="icon ic-megaphone"></span><p>Âm nhạc</p></td>
+										<td><span class="icon ic-strategy"></span><p>Chơi game</p></td>
+										<td><span class="icon ic-hotairballoon"></span><p>Du lịch</p></td>
+										<td><span class="icon	ic-basket"></span><p>Nấu ăn</p></td>
+									</tr>
+								 </table>
+								</td></tr>
+								<tr>
+				<!-- Xây dựng phần "Ngôn Ngữ" -->
+								<td>
+								 <div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Ngôn ngữ</h2></div>
+									<div class="icon3"><span class="ic-mic"></span></div>
+								 </div>
+								 <p>Tiếng Anh</p>
+				 				 <span class="xanh"></span><span class="xam"></span><span class="xam"></span>
+								</td></tr>
+								<tr>
+				<!-- Xây dựng phần "Kỹ Năng" -->
+								<td> 
+								 <div class="infomation">
+									<div class="infomation-title"> <h2 class="section-title">Kỹ năng</h2></div>
+									<div class="icon3"><span class="ic-tools-2"></span></div>
+								 </div>
+								 <p>HTML/CSS: Intermediate</p>
+			 	 <span class="xanh"></span><span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span>
+				 <p>Javascript: Fundamental</p>
+			   <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+				 <p>ReactJS: Fundamental</p>
+				 <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+				 <p>NodeJS: Fundamental</p>
+				 <span class="xanh"></span><span class="xanh"></span><span class="xam"></span><span class="xam"></span><span class="xam"></span>
+								</td>
+							 </tr>
+			</table>
+		</section>
+<!-- Xây dựng phần "Chứng chỉ - Giải thưởng" -->
+    <section id="certificate" class="bg-grey">
+      <div class="cc-gt w-75-2">
+        <h2 class="section-title">Chứng chỉ - Giải thưởng</h2>
+				<div class="certificate-grid">
+					<div class="cc-WEB"> 
+						<img src="images/Cert_WEB_Dinh.png" alt="chung chi WEB" class="cc-img">
+						<div class="cc-title"><h3>chứng chỉ lập trình web - Funix</h3>
+							<p>- Chứng chỉ thuộc chương trình CCDN</p>
+							<p>- GPA: 8.0</p></div>
+					</div>
+					<div class="cc-PRF"> 
+						<img src="images/Cert_PRF_Dinh.png" alt="chung chi PRF"class="cc-img">
+						<div class="cc-title"><h3>chứng chỉ lập trình Javascrip - Funix</h3>
+							<p>- Chứng chỉ thuộc chương trình CCDN</p>
+							<p>- GPA: 8.0</p></div></div>
+							<hr>
+					<div class="cc-RJS">
+						<img src="images/Cert_RJS_Dinh.png" alt="chung chi RJS"class="cc-img">
+						<div class="cc-title"><h3>chứng chỉ Web Front-End với React - Funix</h3>
+							<p>- Chứng chỉ thuộc chương trình CCDN</p>
+							<p>- GPA: 8.0</p></div></div>
+							<div class="cc-PRF"> 
+								<img src="images/Cert_NJS_Dinh.png" alt="chung chi NJS"class="cc-img">
+								<div class="cc-title"><h3>chứng chỉ Web Back-end với NodeJS - Funix</h3>
+									<p>- Chứng chỉ thuộc chương trình CCDN</p>
+									<p>- GPA: 9.2</p></div></div>
+					</div>
+				</div>
+		</section>
+<!-- Xây dựng phần "Dự án" -->
+    <section id="project">
+      <div class="cc-gt w-75-2">
+        <h2 class="section-title">Dự án</h2>
+      	<div class="project-grid">
+					<div class="du-an">
+				 	 	<img src="images/project_1_Dinh.png" alt="du an 1" class="project-img">
+						<div class="project-name">CV CÁ NHÂN</div>
+						<div class="project-title"><div class="now2">2021</div><div class="icon-user-1">FUNiX</div><div class="icon-lamp">Developer</div></div>
+						<table class="project-information">
+						 <tr>
+							<td class="cot1"><p>Mô tả</p></td>
+							<td class="cot2"><p>Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp. <a href="https://huydinh-ng.github.io/CV/" target="_blank"style="color: #0088ff">Tham khảo</a></p></td>
+						 </tr>
+						 <tr>
+							<td class="cot1"><p>Nhiệm vụ</p></td>
+							<td class="cot2"><p>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p></td>
+						 </tr>
+						 <tr>
+							<td class="noboder cot1"><p>Công nghệ</p></td>
+							<td class="noboder cot2"><p>- HTML, CSS</p></td>
+					 	 </tr>
+						</table>	
+					</div>
+					<div class="du-an">
+				  	<img src="images/project_2.png" alt="du an 2" class="project-img">
+						<div class="project-name">TRANG WEB QUẢN LÝ THÚ CƯNG</div>
+						<div class="project-title"><span class="now2">2021</span><span class="icon-user-1">FUNiX</span><span class="icon-lamp">Developer</span></div>
+						<table class="project-information">
+						 <tr>
+							<td class="cot1"><p>Mô tả</p></td>
+							<td class="cot2"><p>Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng, giống, tình trạng tiêm chủng, ... Bao gồm các chức năng thêm/ sửa/ xóa. <a href="https://huydinh-ng.github.io/QLTC/" target="_blank"style="color: #0088ff">Tham khảo</a></p></td>
+						 </tr>
+						 <tr>
+							<td class="cot1"><p>Nhiệm vụ</p></td>
+							<td class="cot2"><p>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p></td>
+						 </tr>
+						 <tr>
+							<td class="noboder cot1"><p>Công nghệ</p></td>
+							<td class="noboder cot2"><p>- HTML, CSS, Javascrip</p></td>
+						 </tr>
+						</table>				
+					</div>
+					<div class="du-an">
+				  	<img src="images/project_3.png" alt="du an 3" class="project-img">
+						<div class="project-name">TRANG WEB XEM TIN TỨC</div>
+						<div class="project-title"><span class="now2">2021</span><span class="icon-user-1">FUNiX</span><span class="icon-lamp">Developer</span></div>
+						<table class="project-information">
+						 <tr>
+							<td class="cot1"><p>Mô tả</p></td>
+							<td class="cot2"><p>Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo các từ khóa. <a href="https://huydinh-ng.github.io/News/" target="_blank"style="color: #0088ff">Tham khảo</a></p></td>
+						 </tr>
+						 <tr>
+							 <td class="cot1"><p>Nhiệm vụ</p></td>
+							<td class="cot2"><p>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p></td>
+						 </tr>
+						 <tr>
+							<td class="noboder cot1"><p>Công nghệ</p></td>
+							<td class="noboder cot2"><p>- HTML, CSS, Javascrip</p></td>
+						 </tr>
+						</table>				
+					</div>
+									<div class="du-an">
+										<img src="images/project_4.png" alt="du an 4" class="project-img">
+									<div class="project-name">TRANG WEB XEM PHIM</div>
+									<div class="project-title"><div class="now2">2021</div><div class="icon-user-1">FUNiX</div><div class="icon-lamp">Developer</div></div>
+									<table class="project-information">
+									 <tr>
+										<td class="cot1"><p>Mô tả</p></td>
+										<td class="cot2"><p>Xây dựng trang web theo mô hình MVC. Hiển thị danh sách các phim, khi click vào từng phim có thể xem thông tin chi tiết của phim và trailer. Chức năng search theo từ khoá… <a href="https://movie-fe-4ozu.onrender.com" target="_blank"style="color: #0088ff">Tham khảo</a>	
+										</p></td>
+									 </tr>
+									 <tr>
+										<td class="cot1"><p>Nhiệm vụ</p></td>
+										<td class="cot2"><p>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p></td>
+									 </tr>
+									 <tr>
+										<td class="noboder cot1"><p>Công nghệ</p></td>
+										<td class="noboder cot2"><p>- HTML, CSS, Javascrip, NodeJS, ReactJS</p></td>
+										</tr>
+									</table>	
+								</div>
+								<div class="du-an">
+									<img src="images/project_5.png" alt="du an 5" class="project-img">
+									<div class="project-name">TRANG THƯƠNG MẠI ĐIỆN TỬ</div>
+									<div class="project-title"><span class="now2">2021</span><span class="icon-user-1">FUNiX</span><span class="icon-lamp">Developer</span></div>
+									<table class="project-information">
+									 <tr>
+										<td class="cot1"><p>Mô tả</p></td>
+										<td class="cot2"><p>Trang web bán thiết bị điện tử có trang riêng dành cho admin và client. Các chức năng bao gồm:
+																		</p>
+										<p>- Client: Đăng ký user, Login, Xem list sản phẩm, xem thông tin, tìm kiếm sản phẩm, đặt hàng, xem lịch sử mua hàng, hoá đơn, tình trạng đơn hàng, chat với admin.
+											<a href="https://ass3client.onrender.com" target="_blank"style="color: #0088ff">Tham khảo</a></p>
+										<p>- Admin:Login, quản lý sản phẩm (Thêm, sửa, xoá), quản lý đơn hàng, chat với user.<a href="https://ass3admin.onrender.com" target="_blank"style="color: #0088ff">Tham khảo</a></p>
+										<p>(account demo: huydinhnoo@gmail.com
+											/nodecomplete)</p>
+																						</td>
+									 </tr>
+									 <tr>
+										<td class="cot1"><p>Nhiệm vụ</p></td>
+										<td class="cot2"><p>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p></td>
+									 </tr>
+									 <tr>
+										<td class="noboder cot1"><p>Công nghệ</p></td>
+										<td class="noboder cot2"><p>- HTML, CSS, Javascrip, NodeJS, ReactJS, NoSQL</p></td>
+									 </tr>
+									</table>				
+								</div>
+								<div class="du-an">
+									<img src="images/project_6.png" alt="du an 6" class="project-img">
+									<div class="project-name">TRANG WEB QUẢN LÝ KHÁCH SẠN</div>
+									<div class="project-title"><span class="now2">2021</span><span class="icon-user-1">FUNiX</span><span class="icon-lamp">Developer</span></div>
+									<table class="project-information">
+									 <tr>
+										<td class="cot1"><p>Mô tả</p></td>
+										<td class="cot2"><p>Trang web quản lý khách sạn có trang riêng dành cho admin và client. Các chức năng bao gồm:
+																		</p>
+																	<p>- Client:Đăng ký user, Login, Xem list khách sạn, tìm kiếm theo thời gian, theo phòng trống, địa điểm... Đặt phòng, xem lịch sử đăt phòng. <a href="https://hotel-548u.onrender.com" target="_blank"style="color: #0088ff">Tham khảo</a>
+																	</p>
+																<p>	- Admin: Xem thông tin user, quản lý user (thêm, sửa, xoá), Quản lý thông tin khách sạn, phòng (thêm, sửa, xoá). <a href="https://hotel-admin.onrender.com/" target="_blank"style="color: #0088ff">Tham khảo</a></p>
+																<p>(account demo: huydinh
+																	/nodecomplete)</p></td>
+									 </tr>
+									 <tr>
+										 <td class="cot1"><p>Nhiệm vụ</p></td>
+										<td class="cot2"><p>- Phát triển code - Review code - Tối ưu code - Xử lý lỗi</p></td>
+									 </tr>
+									 <tr>
+										<td class="noboder cot1"><p>Công nghệ</p></td>
+										<td class="noboder cot2"><p>- HTML, CSS, Javascrip, NodeJS, ReactJS, NoSQL</p></td>
+									 </tr>
+									</table>				
+								</div></div>
+			</div>
+    </section>
+<!-- Xây dựng phần "Liên hệ" -->
+    <section id="footer" class="bg-grey">
+      <ul class="contact">
+        <li class="icon-facebook-circled">Facebook</li>
+        <li class="icon-linkedin-circled">Linkedin</li>
+        <li class="icon-github-circled">Github</li>
+      </ul>   
+    </section>
+		<script>
+			function myFunction(a) {
+								a.scrollIntoView();
+			}
+			</script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+@media only screen and (min-width: 500.2px) and (max-width: 768px) {
+  /* Xây dựng phần "Chứng chỉ - Giải thưởng" */
+  .certificate-grid > div {
+    flex-direction: column;
+  }
+  .cc-img {
+    width: calc(100% - 10px);
+  }
+  .d-md-flex {
+    display: none !important;
+  }
+  .d-md-none {
+    display: flex !important;
+  }
+  .d-sm-none {
+    display: none !important;
+  }
+  .d-md-grid {
+    display: flex !important;
+  }
+}
