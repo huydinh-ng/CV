@@ -22,7 +22,7 @@ i {
 /*Xây dựng phần ảnh Banner*/
 #banner {
   position: relative;
-  height: 20vw;
+  height: 30vh;
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
