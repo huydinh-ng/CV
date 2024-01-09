@@ -1,4 +1,4 @@
-![Uploading Ảnh chụp màn hình 2024-01-09 145818.png…]()
+![Ảnh chụp màn hình 2024-01-09 145818](https://github.com/huydinh-ng/CV/assets/131755314/cb989eaa-2c4b-4cbe-929b-e2f4605b3a07)
 **CV Online**
 
 **Description**
