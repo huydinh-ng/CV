@@ -1,6 +1,3 @@
-body {
-  font-family: "Montserrat", serif;
-}
 a {
   color: #4a4a4a;
   text-decoration: none;
@@ -102,6 +99,7 @@ i {
   display: flex;
   padding: 5px 0px;
   position: inherit;
+  width: 100%;
 }
 .infomation-title {
   vertical-align: text-top;
@@ -150,14 +148,14 @@ i {
   display: inline-block;
   height: 1px;
   margin-right: 6px;
-  width: 30px;
+  width: 15%;
 }
 .xam {
   background-color: #dee2e6;
   display: inline-block;
   height: 1px;
   margin-right: 6px;
-  width: 30px;
+  width: 15%;
 }
 
 ul {
